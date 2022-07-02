@@ -2,6 +2,7 @@
 // Ստեղծել ֆունկցիա որը վերադարձնում է տրված զանգվածի միայն չկրկնվող անդամները։
 
 function findTheUniqueElements(array) {
+    let k = 0;
     let uniqueElements = [];
     for (let i = 0; i < array.length; i++) {
         let j;
