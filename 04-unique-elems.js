@@ -3,7 +3,6 @@
 
 function findTheUniqueElements(array) {
     let uniqueElements = [];
-    let k = 0;
     for (let i = 0; i < array.length; i++) {
         let j;
         for (j = 0; j < array.length; j++) {
@@ -17,6 +16,7 @@ function findTheUniqueElements(array) {
     }
     return uniqueElements;
 }
+
 let array1 = ["d", "d", "c", "b", "a", "a"];
 let result = findTheUniqueElements(array1);
 console.log(result);
