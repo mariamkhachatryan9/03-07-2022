@@ -1,14 +1,14 @@
 //9․ Find the max payment 
 // Գտնել մեծագույն կատարված վճարումը
 
-function findMaxValue(evaluations) {
-    let max = evaluations[0].payedAmount;
-    for (let i = 0; i < evaluations.length; i++) {
-        if (evaluations[i].payedAmount > max) {
-            max = evaluations[i].payedAmount;
+function findMaxValue(payments) {
+    let max = payments[0].payedAmount;
+    for (let i = 0; i < payments.length; i++) {
+        if (payments[i].payedAmount > max) {
+            max = payments[i].payedAmount;
         }
     }
     return max;
 }
-let res = findMaxValue(evaluations);
+let res = findMaxValue(payments);
 console.log(res);
